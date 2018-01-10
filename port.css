@@ -1,0 +1,94 @@
+/* Changing font of body */
+		body {
+		font-family: "Roboto", sans-serif;
+		}
+
+	/* Navbar Style */
+
+	nav {
+		width: 100%;
+		text-align: center;
+	}
+
+	ul.navbar {
+		list-style-type: none;
+		text-align: center;
+		display: inline-block;
+		padding-right: 30px;
+	}
+	
+	li.navbar {
+		float:left;
+	}
+
+
+	li a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 40px;
+		text-decoration: none;
+	}
+
+	/* Change link color on hover */
+
+	li a:hover {
+		color: #e6e6e6;
+	}
+
+	/* Front Image */
+	.frontimage {
+		display: block;
+		margin: auto;
+		width: 40%;
+	}
+
+	div.homepage {
+		margin: auto;
+	}
+
+	/* Name under image */
+	.myname {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		font-family: "Raleway", sans-serif;
+		font-size: 30px;
+		letter-spacing: 7px;
+	}
+
+	.undername {
+		font-family:"Montserrat", sans-serif;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	/* Styling Footer */
+
+	footer {
+		padding: 10px;
+		text-align: center;
+
+	}
+
+	.footer {
+		font-size: 10px;
+	}
+
+	.linkedin {
+		width: 20px;
+		height: 20px;
+		padding: 5px;
+	}
+
+	.github {
+		width: 20px;
+		height: 20px;
+		padding: 5px;
+	}
+
+	.gmail {
+		width: 20px;
+		height: 20px;
+		padding: 5px;
+	}
