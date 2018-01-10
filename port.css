@@ -83,11 +83,22 @@
 		padding-right: 20%;
 	}
 
+	.containerforabout {
+		float: left;
+		width: 1100px;
+		height: 500px;
+	}
+
+	.aboutaside {
+		float: left;
+	}
+
 	/* Styling Footer */
 
 	footer {
 		padding: 10px;
 		text-align: center;
+		clear: both;
 
 	}
 
