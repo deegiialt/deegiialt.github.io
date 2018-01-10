@@ -64,6 +64,25 @@
 		text-align: center;
 	}
 
+	/* About me */
+
+	.aboutme {
+		text-align: center;
+		font-family:"Raleway", sans-serif;
+		font-size: 50px;
+		letter-spacing: 10px;
+		max-width: 100%;
+	}
+
+	.aboutmecontent {
+		text-align: center;
+		font-family:"Raleway", sans-serif;
+		font-size: 30px;
+		margin: auto;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+
 	/* Styling Footer */
 
 	footer {
