@@ -108,7 +108,6 @@
 	.projectscontainer {
 		clear: both;
 		width: 60%;
-		height: auto;
 		list-style-type: none;
 		text-align: center;
 		display: inline-block;
@@ -119,6 +118,11 @@
 	.thumbnails {
 		float: left;
 
+	}
+
+	.projectImage {
+		width: 200px;
+		height: 200px;
 	}
 
 	/* Contact Form */
