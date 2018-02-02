@@ -1,2 +1,2 @@
-# deegiialt.github.io
-Website
+Portfolio of Delgermaa Altangerel
+Website url: deegiialt.github.io
