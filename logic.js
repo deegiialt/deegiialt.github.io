@@ -14,6 +14,7 @@ var database = firebase.database();
 
 //Grab values from contact form
 var name = $("#nameInput").val().trim();
+console.log(name);
 var email = $("#emailInput").val().trim();
 var message = $("#messageInput").val().trim();
 
@@ -27,11 +28,11 @@ $("#submitButton").on("click", function(event) {
 	});
 });
 
-database.ref().on("value", function(snapshot) {
-	// Print the initial data to the console.
-	console.log(snapshot.val());
-	// Log the value of the various properties
-	console.log(snapshot.val().name);
-	console.log(snapshot.val().email);
-	console.log(snapshot.val().message);
-});
+// database.ref().on("value", function(snapshot) {
+// 	// Print the initial data to the console.
+// 	console.log(snapshot.val());
+// 	// Log the value of the various properties
+// 	console.log(snapshot.val().name);
+// 	console.log(snapshot.val().email);
+// 	console.log(snapshot.val().message);
+// });
