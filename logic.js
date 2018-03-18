@@ -10,6 +10,8 @@ var config = {
 
 firebase.initializeApp(config);
 
+var database = firebase.database();
+
 //Grab values from contact form
 var name = $("#nameInput").val().trim();
 var email = $("#emailInput").val().trim();
