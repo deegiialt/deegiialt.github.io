@@ -13,14 +13,16 @@ firebase.initializeApp(config);
 var database = firebase.database();
 
 //Grab values from contact form
-var name = $("#nameInput").val().trim();
-console.log(name);
-var email = $("#emailInput").val().trim();
-var message = $("#messageInput").val().trim();
+
 
 $("#submitButton").on("click", function(event) {
 	event.preventDefault();
-
+	
+	var name = $("#nameInput").val().trim();
+	console.log(name);
+	var email = $("#emailInput").val().trim();
+	var message = $("#messageInput").val().trim();
+	
 	database.ref().set({
 		name: name,
 		email: email,
